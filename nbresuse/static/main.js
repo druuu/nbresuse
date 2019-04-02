@@ -3,7 +3,6 @@ define(['jquery', 'base/js/utils'], function ($, utils) {
         $('#maintoolbar-container').append(
             $('<div>').attr('id', 'nbresuse-display')
                       .addClass('btn-group')
-                      .addClass('pull-right')
             .append(
                 $('<strong>').text('Memory: ')
             ).append(
